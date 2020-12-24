@@ -1,9 +1,9 @@
 {
-  "scopeName": "source.i3",
-  "name": "i3wm",
+  "scopeName": "source.sway",
+  "name": "swaywm",
   "fileTypes": [
-    ".i3/config",
-    "i3/config"
+    ".sway/config",
+    "sway/config"
   ],
   "patterns": [
     {
@@ -11,10 +11,10 @@
       "match": "\\[(\\w+)=(\\\".*\\\")\\]",
       "captures": {
         "1": {
-          "name": "constant.language.i3"
+          "name": "constant.language.sway"
         },
         "2": {
-          "name": "string.i3"
+          "name": "string.sway"
         }
       }
     },
@@ -23,10 +23,10 @@
       "match": "(\\#)(.*)",
       "captures": {
         "1": {
-          "name": "comment.line.number-sign.i3"
+          "name": "comment.line.number-sign.sway"
         },
         "2": {
-          "name": "comment.line.i3"
+          "name": "comment.line.sway"
         }
       }
     },
@@ -35,10 +35,10 @@
       "match": "(font\\ pango\\:)\\s*([- ,\\w]*)",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "2": {
-          "name": "constant.language.i3"
+          "name": "constant.language.sway"
         }
       }
     },
@@ -47,10 +47,10 @@
       "match": "(font)\\s*([-\\w]*)",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "2": {
-          "name": "constant.language.i3"
+          "name": "constant.language.sway"
         }
       }
     },
@@ -59,10 +59,10 @@
       "match": "(fullscreen)\\s*(toggle)?",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "2": {
-          "name": "constant.language.i3"
+          "name": "constant.language.sway"
         }
       }
     },
@@ -71,10 +71,10 @@
       "match": "(floating_modifier)\\s*(\\$?\\w*)",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "2": {
-          "name": "variable.other.i3"
+          "name": "variable.other.sway"
         }
       }
     },
@@ -83,16 +83,16 @@
       "match": "(floating_minimum_size)\\s*(-?\\d*)\\s*(x)\\s*(-?\\d*)",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "2": {
-          "name": "constant.numeric.i3"
+          "name": "constant.numeric.sway"
         },
         "3": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "4": {
-          "name": "constant.numeric.i3"
+          "name": "constant.numeric.sway"
         }
       }
     },
@@ -101,16 +101,16 @@
       "match": "(floating_maximum_size)\\s*(-?\\d*)\\s*(x)\\s*(-?\\d*)",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "2": {
-          "name": "constant.numeric.i3"
+          "name": "constant.numeric.sway"
         },
         "3": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "4": {
-          "name": "constant.numeric.i3"
+          "name": "constant.numeric.sway"
         }
       }
     },
@@ -119,10 +119,10 @@
       "match": "(default_orientation)\\s*(vertical|horizontal|v|h|auto|a)",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "2": {
-          "name": "constant.language.i3"
+          "name": "constant.language.sway"
         }
       }
     },
@@ -131,10 +131,10 @@
       "match": "(workspace_layout)\\s*(default|stacking|tabbed|d|s|t)",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "2": {
-          "name": "constant.language.i3"
+          "name": "constant.language.sway"
         }
       }
     },
@@ -143,10 +143,10 @@
       "match": "(new_(?:window|float))\\s*(normal|none|(?:\\d*pixel\\s\\d*))",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "2": {
-          "name": "constant.language.i3"
+          "name": "constant.language.sway"
         }
       }
     },
@@ -155,10 +155,10 @@
       "match": "(hide_edge_borders)\\s*(vertical|horizontal|none|both|v|h|n|b)",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "2": {
-          "name": "constant.language.i3"
+          "name": "constant.language.sway"
         }
       }
     },
@@ -167,13 +167,13 @@
       "match": "(for_window)\\s*\\[(\\w+)=(\\\".*\\\")\\]\\s*",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "2": {
-          "name": "constant.language.i3"
+          "name": "constant.language.sway"
         },
         "3": {
-          "name": "string.i3"
+          "name": "string.sway"
         }
       }
     },
@@ -182,10 +182,10 @@
       "match": "(set)\\s*(\\$\\w*)\\s*",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "2": {
-          "name": "variable.other.i3"
+          "name": "variable.other.sway"
         }
       }
     },
@@ -194,13 +194,13 @@
       "match": "(set)\\s*(\\$\\w*)\\s*(#\\w{6})",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "2": {
-          "name": "variable.other.i3"
+          "name": "variable.other.sway"
         },
         "3": {
-          "name": "constant.other.i3"
+          "name": "constant.other.sway"
         }
       }
     },
@@ -209,19 +209,19 @@
       "match": "(assign)\\s*\\[(\\w+)=(\\\".*\\\")\\]\\s*(→)?\\s*([\\w\\d]*)",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "2": {
-          "name": "constant.language.i3"
+          "name": "constant.language.sway"
         },
         "3": {
-          "name": "string.i3"
+          "name": "string.sway"
         },
         "4": {
-          "name": "keyword.operator.i3"
+          "name": "keyword.operator.sway"
         },
         "5": {
-          "name": "constant.language.i3"
+          "name": "constant.language.sway"
         }
       }
     },
@@ -230,13 +230,13 @@
       "match": "(exec_always)\\s*(\\-\\-no-startup-id)?\\s*(.*)",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "2": {
-          "name": "constant.language.i3"
+          "name": "constant.language.sway"
         },
         "3": {
-          "name": "source.i3"
+          "name": "source.sway"
         }
       }
     },
@@ -245,13 +245,13 @@
       "match": "(exec)\\s*(\\-\\-no-startup-id)?\\s*(.*)",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "2": {
-          "name": "constant.language.i3"
+          "name": "constant.language.sway"
         },
         "3": {
-          "name": "source.i3"
+          "name": "source.sway"
         }
       }
     },
@@ -260,22 +260,22 @@
       "match": "(client\\.focused)\\s*(#\\w{6})\\s*(#\\w{6})\\s*(#\\w{6})\\s*(#\\w{6})\\s*(#\\w{6})",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "2": {
-          "name": "constant.other.i3"
+          "name": "constant.other.sway"
         },
         "3": {
-          "name": "constant.other.i3"
+          "name": "constant.other.sway"
         },
         "4": {
-          "name": "constant.other.i3"
+          "name": "constant.other.sway"
         },
         "5": {
-          "name": "constant.other.i3"
+          "name": "constant.other.sway"
         },
         "6": {
-          "name": "constant.other.i3"
+          "name": "constant.other.sway"
         }
       }
     },
@@ -284,22 +284,22 @@
       "match": "(client\\.focused)\\s*(\\$\\w*)\\s*(\\$\\w*)\\s*(\\$\\w*)\\s*(\\$\\w*)\\s*(\\$\\w*)",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "2": {
-          "name": "variable.other.i3"
+          "name": "variable.other.sway"
         },
         "3": {
-          "name": "variable.other.i3"
+          "name": "variable.other.sway"
         },
         "4": {
-          "name": "variable.other.i3"
+          "name": "variable.other.sway"
         },
         "5": {
-          "name": "variable.other.i3"
+          "name": "variable.other.sway"
         },
         "6": {
-          "name": "variable.other.i3"
+          "name": "variable.other.sway"
         }
       }
     },
@@ -308,22 +308,22 @@
       "match": "(client\\.focused_inactive)\\s*(#\\w{6})\\s*(#\\w{6})\\s*(#\\w{6})\\s*(#\\w{6})\\s*(#\\w{6})",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "2": {
-          "name": "constant.other.i3"
+          "name": "constant.other.sway"
         },
         "3": {
-          "name": "constant.other.i3"
+          "name": "constant.other.sway"
         },
         "4": {
-          "name": "constant.other.i3"
+          "name": "constant.other.sway"
         },
         "5": {
-          "name": "constant.other.i3"
+          "name": "constant.other.sway"
         },
         "6": {
-          "name": "constant.other.i3"
+          "name": "constant.other.sway"
         }
       }
     },
@@ -332,22 +332,22 @@
       "match": "(client\\.focused_inactive)\\s*(\\$\\w*)\\s*(\\$\\w*)\\s*(\\$\\w*)\\s*(\\$\\w*)\\s*(\\$\\w*)",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "2": {
-          "name": "variable.other.i3"
+          "name": "variable.other.sway"
         },
         "3": {
-          "name": "variable.other.i3"
+          "name": "variable.other.sway"
         },
         "4": {
-          "name": "variable.other.i3"
+          "name": "variable.other.sway"
         },
         "5": {
-          "name": "variable.other.i3"
+          "name": "variable.other.sway"
         },
         "6": {
-          "name": "variable.other.i3"
+          "name": "variable.other.sway"
         }
       }
     },
@@ -356,22 +356,22 @@
       "match": "(client\\.unfocused)\\s*(#\\w{6})\\s*(#\\w{6})\\s*(#\\w{6})\\s*(#\\w{6})\\s*(#\\w{6})",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "2": {
-          "name": "constant.other.i3"
+          "name": "constant.other.sway"
         },
         "3": {
-          "name": "constant.other.i3"
+          "name": "constant.other.sway"
         },
         "4": {
-          "name": "constant.other.i3"
+          "name": "constant.other.sway"
         },
         "5": {
-          "name": "constant.other.i3"
+          "name": "constant.other.sway"
         },
         "6": {
-          "name": "constant.other.i3"
+          "name": "constant.other.sway"
         }
       }
     },
@@ -380,22 +380,22 @@
       "match": "(client\\.unfocused)\\s*(\\$\\w*)\\s*(\\$\\w*)\\s*(\\$\\w*)\\s*(\\$\\w*)\\s*(\\$\\w*)",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "2": {
-          "name": "variable.other.i3"
+          "name": "variable.other.sway"
         },
         "3": {
-          "name": "variable.other.i3"
+          "name": "variable.other.sway"
         },
         "4": {
-          "name": "variable.other.i3"
+          "name": "variable.other.sway"
         },
         "5": {
-          "name": "variable.other.i3"
+          "name": "variable.other.sway"
         },
         "6": {
-          "name": "variable.other.i3"
+          "name": "variable.other.sway"
         }
       }
     },
@@ -404,22 +404,22 @@
       "match": "(client\\.urgent)\\s*(#\\w{6})\\s*(#\\w{6})\\s*(#\\w{6})\\s*(#\\w{6})\\s*(#\\w{6})",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "2": {
-          "name": "constant.other.i3"
+          "name": "constant.other.sway"
         },
         "3": {
-          "name": "constant.other.i3"
+          "name": "constant.other.sway"
         },
         "4": {
-          "name": "constant.other.i3"
+          "name": "constant.other.sway"
         },
         "5": {
-          "name": "constant.other.i3"
+          "name": "constant.other.sway"
         },
         "6": {
-          "name": "constant.other.i3"
+          "name": "constant.other.sway"
         }
       }
     },
@@ -428,22 +428,22 @@
       "match": "(client\\.urgent)\\s*(\\$\\w*)\\s*(\\$\\w*)\\s*(\\$\\w*)\\s*(\\$\\w*)\\s*(\\$\\w*)",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "2": {
-          "name": "variable.other.i3"
+          "name": "variable.other.sway"
         },
         "3": {
-          "name": "variable.other.i3"
+          "name": "variable.other.sway"
         },
         "4": {
-          "name": "variable.other.i3"
+          "name": "variable.other.sway"
         },
         "5": {
-          "name": "variable.other.i3"
+          "name": "variable.other.sway"
         },
         "6": {
-          "name": "variable.other.i3"
+          "name": "variable.other.sway"
         }
       }
     },
@@ -452,22 +452,22 @@
       "match": "(client\\.placeholder)\\s*(#\\w{6})\\s*(#\\w{6})\\s*(#\\w{6})\\s*(#\\w{6})\\s*(#\\w{6})",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "2": {
-          "name": "constant.other.i3"
+          "name": "constant.other.sway"
         },
         "3": {
-          "name": "constant.other.i3"
+          "name": "constant.other.sway"
         },
         "4": {
-          "name": "constant.other.i3"
+          "name": "constant.other.sway"
         },
         "5": {
-          "name": "constant.other.i3"
+          "name": "constant.other.sway"
         },
         "6": {
-          "name": "constant.other.i3"
+          "name": "constant.other.sway"
         }
       }
     },
@@ -476,22 +476,22 @@
       "match": "(client\\.placeholder)\\s*(\\$\\w*)\\s*(\\$\\w*)\\s*(\\$\\w*)\\s*(\\$\\w*)\\s*(\\$\\w*)",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "2": {
-          "name": "variable.other.i3"
+          "name": "variable.other.sway"
         },
         "3": {
-          "name": "variable.other.i3"
+          "name": "variable.other.sway"
         },
         "4": {
-          "name": "variable.other.i3"
+          "name": "variable.other.sway"
         },
         "5": {
-          "name": "variable.other.i3"
+          "name": "variable.other.sway"
         },
         "6": {
-          "name": "variable.other.i3"
+          "name": "variable.other.sway"
         }
       }
     },
@@ -500,10 +500,10 @@
       "match": "(client\\.background)\\s*(#\\w{6})",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "2": {
-          "name": "constant.other.i3"
+          "name": "constant.other.sway"
         }
       }
     },
@@ -512,10 +512,10 @@
       "match": "(client\\.background)\\s*(\\$\\w*)",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "2": {
-          "name": "variable.other.i3"
+          "name": "variable.other.sway"
         }
       }
     },
@@ -524,10 +524,10 @@
       "match": "(ipc-socket)\\s*(.*)",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "2": {
-          "name": "string.i3"
+          "name": "string.sway"
         }
       }
     },
@@ -536,10 +536,10 @@
       "match": "(focus_follows_mouse)\\s*(yes|no|y|n)",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "2": {
-          "name": "constant.language.i3"
+          "name": "constant.language.sway"
         }
       }
     },
@@ -548,10 +548,10 @@
       "match": "(popup_during_fullscreen)\\s*(smart|ignore|leave_fullscreen)",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "2": {
-          "name": "constant.language.i3"
+          "name": "constant.language.sway"
         }
       }
     },
@@ -560,10 +560,10 @@
       "match": "(force_focus_wrapping)\\s*(yes|no|y|n)",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "2": {
-          "name": "constant.language.i3"
+          "name": "constant.language.sway"
         }
       }
     },
@@ -572,10 +572,10 @@
       "match": "(force_xinerama)\\s*(no|yes)",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "2": {
-          "name": "constant.language.i3"
+          "name": "constant.language.sway"
         }
       }
     },
@@ -584,10 +584,10 @@
       "match": "(force_xinerama)\\s*(yes|no|y|n)",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "2": {
-          "name": "constant.language.i3"
+          "name": "constant.language.sway"
         }
       }
     },
@@ -596,10 +596,10 @@
       "match": "(workspace_auto_back_and_forth)\\s*(yes|no|y|n)",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "2": {
-          "name": "constant.language.i3"
+          "name": "constant.language.sway"
         }
       }
     },
@@ -608,10 +608,10 @@
       "match": "(force_display_urgency_hint)\\s*(\\d*)\\s*ms",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "2": {
-          "name": "constant.numeric.i3"
+          "name": "constant.numeric.sway"
         }
       }
     },
@@ -620,19 +620,19 @@
       "match": "(?:^ *|\\G *)(bar)",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         }
       }
     },
     {
-      "name": "i3bar_command",
-      "match": "(i3bar_command)\\s*(.*)",
+      "name": "swaybar_command",
+      "match": "(swaybar_command)\\s*(.*)",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "2": {
-          "name": "constant.language.i3"
+          "name": "constant.language.sway"
         }
       }
     },
@@ -641,10 +641,10 @@
       "match": "(status_command)\\s*(.*)",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "2": {
-          "name": "constant.language.i3"
+          "name": "constant.language.sway"
         }
       }
     },
@@ -653,10 +653,10 @@
       "match": "(modifier)\\s*(.*)",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "2": {
-          "name": "constant.language.i3"
+          "name": "constant.language.sway"
         }
       }
     },
@@ -665,10 +665,10 @@
       "match": "(hidden_state)\\s*(show|hide)",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "2": {
-          "name": "constant.language.i3"
+          "name": "constant.language.sway"
         }
       }
     },
@@ -677,10 +677,10 @@
       "match": "(mode)\\s*(dock|hide|invisible)",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "2": {
-          "name": "constant.language.i3"
+          "name": "constant.language.sway"
         }
       }
     },
@@ -689,10 +689,10 @@
       "match": "(id)\\s*(.*)",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "2": {
-          "name": "constant.language.i3"
+          "name": "constant.language.sway"
         }
       }
     },
@@ -701,10 +701,10 @@
       "match": "(position)\\s*(.*)",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "2": {
-          "name": "constant.language.i3"
+          "name": "constant.language.sway"
         }
       }
     },
@@ -713,10 +713,10 @@
       "match": "(output)\\s*([\\w-]*)",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "2": {
-          "name": "constant.language.i3"
+          "name": "constant.language.sway"
         }
       }
     },
@@ -725,10 +725,10 @@
       "match": "(tray_output)\\s*([\\w-]*)",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "2": {
-          "name": "constant.language.i3"
+          "name": "constant.language.sway"
         }
       }
     },
@@ -737,10 +737,10 @@
       "match": "(workspace_buttons)\\s*(yes|no|y|n)",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "2": {
-          "name": "constant.language.i3"
+          "name": "constant.language.sway"
         }
       }
     },
@@ -749,10 +749,10 @@
       "match": "(colors)\\s*(.*)",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "2": {
-          "name": "block.i3"
+          "name": "block.sway"
         }
       }
     },
@@ -761,10 +761,10 @@
       "match": "(background)\\s*([#$\\w]*)",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "2": {
-          "name": "constant.language.i3"
+          "name": "constant.language.sway"
         }
       }
     },
@@ -773,10 +773,10 @@
       "match": "(statusline)\\s*(#\\w{6})",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "2": {
-          "name": "constant.language.i3"
+          "name": "constant.language.sway"
         }
       }
     },
@@ -785,10 +785,10 @@
       "match": "(statusline)\\s*(\\$\\w*)",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "2": {
-          "name": "variable.other.i3"
+          "name": "variable.other.sway"
         }
       }
     },
@@ -797,10 +797,10 @@
       "match": "(separator)\\s*([#$\\w]*)",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "2": {
-          "name": "constant.language.i3"
+          "name": "constant.language.sway"
         }
       }
     },
@@ -809,19 +809,19 @@
       "match": "(focused_workspace)\\s*(#\\w{6})\\s*(#\\w{6})\\s*(#\\w{6})",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "2": {
-          "name": "constant.language.i3"
+          "name": "constant.language.sway"
         },
         "3": {
-          "name": "constant.language.i3"
+          "name": "constant.language.sway"
         },
         "4": {
-          "name": "constant.language.i3"
+          "name": "constant.language.sway"
         },
         "5": {
-          "name": "constant.language.i3"
+          "name": "constant.language.sway"
         }
       }
     },
@@ -830,22 +830,22 @@
       "match": "(focused_workspace)\\s*(\\$\\w*)\\s*(\\$\\w*)\\s*(\\$\\w*)",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "2": {
-          "name": "variable.other.i3"
+          "name": "variable.other.sway"
         },
         "3": {
-          "name": "variable.other.i3"
+          "name": "variable.other.sway"
         },
         "4": {
-          "name": "variable.other.i3"
+          "name": "variable.other.sway"
         },
         "5": {
-          "name": "variable.other.i3"
+          "name": "variable.other.sway"
         },
         "6": {
-          "name": "variable.other.i3"
+          "name": "variable.other.sway"
         }
       }
     },
@@ -854,19 +854,19 @@
       "match": "(active_workspace)\\s*(#\\w{6})\\s*(#\\w{6})\\s*(#\\w{6})",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "2": {
-          "name": "constant.language.i3"
+          "name": "constant.language.sway"
         },
         "3": {
-          "name": "constant.language.i3"
+          "name": "constant.language.sway"
         },
         "4": {
-          "name": "constant.language.i3"
+          "name": "constant.language.sway"
         },
         "5": {
-          "name": "constant.language.i3"
+          "name": "constant.language.sway"
         }
       }
     },
@@ -875,22 +875,22 @@
       "match": "(active_workspace)\\s*(\\$\\w*)\\s*(\\$\\w*)\\s*(\\$\\w*)",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "2": {
-          "name": "variable.other.i3"
+          "name": "variable.other.sway"
         },
         "3": {
-          "name": "variable.other.i3"
+          "name": "variable.other.sway"
         },
         "4": {
-          "name": "variable.other.i3"
+          "name": "variable.other.sway"
         },
         "5": {
-          "name": "variable.other.i3"
+          "name": "variable.other.sway"
         },
         "6": {
-          "name": "variable.other.i3"
+          "name": "variable.other.sway"
         }
       }
     },
@@ -899,19 +899,19 @@
       "match": "(inactive_workspace)\\s*([#\\$\\w]*)\\s*([#\\$\\w]*)\\s*([#\\$\\w]*)",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "2": {
-          "name": "constant.language.i3"
+          "name": "constant.language.sway"
         },
         "3": {
-          "name": "constant.language.i3"
+          "name": "constant.language.sway"
         },
         "4": {
-          "name": "constant.language.i3"
+          "name": "constant.language.sway"
         },
         "5": {
-          "name": "constant.language.i3"
+          "name": "constant.language.sway"
         }
       }
     },
@@ -920,22 +920,22 @@
       "match": "(inactive_workspace)\\s*(\\$\\w*)\\s*(\\$\\w*)\\s*(\\$\\w*)",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "2": {
-          "name": "variable.other.i3"
+          "name": "variable.other.sway"
         },
         "3": {
-          "name": "variable.other.i3"
+          "name": "variable.other.sway"
         },
         "4": {
-          "name": "variable.other.i3"
+          "name": "variable.other.sway"
         },
         "5": {
-          "name": "variable.other.i3"
+          "name": "variable.other.sway"
         },
         "6": {
-          "name": "variable.other.i3"
+          "name": "variable.other.sway"
         }
       }
     },
@@ -944,19 +944,19 @@
       "match": "(urgent_workspace)\\s*(#\\w{6})\\s*(#\\w{6})\\s*(#\\w{6})",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "2": {
-          "name": "constant.language.i3"
+          "name": "constant.language.sway"
         },
         "3": {
-          "name": "constant.language.i3"
+          "name": "constant.language.sway"
         },
         "4": {
-          "name": "constant.language.i3"
+          "name": "constant.language.sway"
         },
         "5": {
-          "name": "constant.language.i3"
+          "name": "constant.language.sway"
         }
       }
     },
@@ -965,22 +965,22 @@
       "match": "(urgent_workspace)\\s*(\\$\\w*)\\s*(\\$\\w*)\\s*(\\$\\w*)",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "2": {
-          "name": "variable.other.i3"
+          "name": "variable.other.sway"
         },
         "3": {
-          "name": "variable.other.i3"
+          "name": "variable.other.sway"
         },
         "4": {
-          "name": "variable.other.i3"
+          "name": "variable.other.sway"
         },
         "5": {
-          "name": "variable.other.i3"
+          "name": "variable.other.sway"
         },
         "6": {
-          "name": "variable.other.i3"
+          "name": "variable.other.sway"
         }
       }
     },
@@ -989,13 +989,13 @@
       "match": "(bindcode)\\s*(--release)?\\s*(\\d*)",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "2": {
-          "name": "constant.language.i3"
+          "name": "constant.language.sway"
         },
         "3": {
-          "name": "constant.numeric.i3"
+          "name": "constant.numeric.sway"
         }
       }
     },
@@ -1004,13 +1004,13 @@
       "match": "(bindsym)\\s*(--release)?\\s*([$\\w\\+]*)",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "2": {
-          "name": "constant.language.i3"
+          "name": "constant.language.sway"
         },
         "3": {
-          "name": "variable.other.i3"
+          "name": "variable.other.sway"
         }
       }
     },
@@ -1019,10 +1019,10 @@
       "match": "(split)\\s*(vertical|horizontal|v|h)",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "2": {
-          "name": "constant.language.i3"
+          "name": "constant.language.sway"
         }
       }
     },
@@ -1031,10 +1031,10 @@
       "match": "(layout)\\s*(default|tabbed|stacking|split v|split h)",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "2": {
-          "name": "constant.language.i3"
+          "name": "constant.language.sway"
         }
       }
     },
@@ -1043,10 +1043,10 @@
       "match": "(layout toggle)\\s*(split|all)?",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "2": {
-          "name": "constant.language.i3"
+          "name": "constant.language.sway"
         }
       }
     },
@@ -1055,10 +1055,10 @@
       "match": "(floating)\\s*(toggle|enable)",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "2": {
-          "name": "constant.language.i3"
+          "name": "constant.language.sway"
         }
       }
     },
@@ -1067,10 +1067,10 @@
       "match": "(focus)\\s*(left|right|down|up|l|r|d|u|parent|child|floating|tiling|mode_toggle)",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "2": {
-          "name": "constant.language.i3"
+          "name": "constant.language.sway"
         }
       }
     },
@@ -1079,10 +1079,10 @@
       "match": "(focus output)\\s*(left|right|down|up|l|r|d|u|(?:[-\\w]*))",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "2": {
-          "name": "constant.language.i3"
+          "name": "constant.language.sway"
         }
       }
     },
@@ -1091,10 +1091,10 @@
       "match": "(sticky)\\s*(enable)",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "2": {
-          "name": "constant.language.i3"
+          "name": "constant.language.sway"
         }
       }
     },
@@ -1103,22 +1103,22 @@
       "match": "(move)\\s*(left|right|down|up|l|r|d|u)(?:\\s*(-?\\d*)\\s*(px)\\s*(?:(-?\\d*)\\s*(px))?)?",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "2": {
-          "name": "constant.language.i3"
+          "name": "constant.language.sway"
         },
         "3": {
-          "name": "constant.numeric.i3"
+          "name": "constant.numeric.sway"
         },
         "4": {
-          "name": "constant.language.i3"
+          "name": "constant.language.sway"
         },
         "5": {
-          "name": "constant.numeric.i3"
+          "name": "constant.numeric.sway"
         },
         "6": {
-          "name": "constant.language.i3"
+          "name": "constant.language.sway"
         }
       }
     },
@@ -1127,40 +1127,40 @@
       "match": "(move)\\s*(absolute)\\s*(position)\\s*(?:(\\d*)\\s*(px))?(?:\\s*(\\d*)\\s*(px))?(?:\\s*(center)|\\s*(?:(\\d*) (px))\\s*(?:(\\d*)\\s*(px)))?",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "2": {
-          "name": "constant.language.i3"
+          "name": "constant.language.sway"
         },
         "3": {
-          "name": "constant.language.i3"
+          "name": "constant.language.sway"
         },
         "4": {
-          "name": "constant.numeric.i3"
+          "name": "constant.numeric.sway"
         },
         "5": {
-          "name": "constant.language.i3"
+          "name": "constant.language.sway"
         },
         "6": {
-          "name": "constant.numeric.i3"
+          "name": "constant.numeric.sway"
         },
         "7": {
-          "name": "constant.language.i3"
+          "name": "constant.language.sway"
         },
         "8": {
-          "name": "constant.language.i3"
+          "name": "constant.language.sway"
         },
         "9": {
-          "name": "constant.numeric.i3"
+          "name": "constant.numeric.sway"
         },
         "10": {
-          "name": "constant.language.i3"
+          "name": "constant.language.sway"
         },
         "11": {
-          "name": "constant.numeric.i3"
+          "name": "constant.numeric.sway"
         },
         "12": {
-          "name": "constant.language.i3"
+          "name": "constant.language.sway"
         }
       }
     },
@@ -1169,10 +1169,10 @@
       "match": "(workspace)\\s*(next|prev|next_on_output|prev_on_output|back_and_forth|(?:\\w)*|(?:\\d*\\s*\\w*))",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "2": {
-          "name": "constant.language.i3"
+          "name": "constant.language.sway"
         }
       }
     },
@@ -1181,19 +1181,19 @@
       "match": "(rename workspace)\\s*([:\\s\\w]*)\\s*(to)\\s*([:\\s\\w]*)",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "2": {
-          "name": "constant.language.i3"
+          "name": "constant.language.sway"
         },
         "3": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "4": {
-          "name": "constant.language.i3"
+          "name": "constant.language.sway"
         },
         "5": {
-          "name": "constant.language.i3"
+          "name": "constant.language.sway"
         }
       }
     },
@@ -1202,19 +1202,19 @@
       "match": "(move)\\s*(workspace|container)\\s*(to)\\s*(output)\\s*(left|right|down|up|[\\w]*)",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "2": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "3": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "4": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "5": {
-          "name": "constant.language.i3"
+          "name": "constant.language.sway"
         }
       }
     },
@@ -1223,16 +1223,16 @@
       "match": "(move)\\s*(workspace)\\s*(next|prev|next_on_output|prev_on_output|back_and_forth|(?:\\w)*|(?:\\d*\\s*\\w*))(\\$\\w*){0,1}",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "2": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "3": {
-          "name": "constant.language.i3"
+          "name": "constant.language.sway"
         },
         "4": {
-          "name": "variable.other.i3"
+          "name": "variable.other.sway"
         }
       }
     },
@@ -1241,22 +1241,22 @@
       "match": "(move)\\s*(window|container)\\s*(to)?\\s*(workspace)?\\s*(\\$\\w*)",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "2": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "3": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "4": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "5": {
-          "name": "variable.other.i3"
+          "name": "variable.other.sway"
         },
         "6": {
-          "name": "variable.other.i3"
+          "name": "variable.other.sway"
         }
       }
     },
@@ -1265,22 +1265,22 @@
       "match": "(move)\\s*(window|container)\\s*(to)?\\s*(workspace)?\\s*(\\d*)\\s*(\\$?\\w*)?",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "2": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "3": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "4": {
-          "name": "variable.other.i3"
+          "name": "variable.other.sway"
         },
         "5": {
-          "name": "constant.numeric.i3"
+          "name": "constant.numeric.sway"
         },
         "6": {
-          "name": "variable.other.i3"
+          "name": "variable.other.sway"
         }
       }
     },
@@ -1289,16 +1289,16 @@
       "match": "(move)\\s*(window|container)\\s*(to)?\\s*(workspace)\\s*(prev|next|current)",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "2": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "3": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "4": {
-          "name": "constant.language.i3"
+          "name": "constant.language.sway"
         }
       }
     },
@@ -1307,10 +1307,10 @@
       "match": "(mode)\\s*(\\\"resize\\\")\\s*(.*)",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "2": {
-          "name": "string.i3"
+          "name": "string.sway"
         }
       }
     },
@@ -1319,28 +1319,28 @@
       "match": "(resize)\\s*(grow|shrink)\\s*(width|height)\\s*(\\d*)\\s*(px)\\s*(or)\\s*(\\d*)\\s*(ppt)",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "2": {
-          "name": "constant.language.i3"
+          "name": "constant.language.sway"
         },
         "3": {
-          "name": "constant.language.i3"
+          "name": "constant.language.sway"
         },
         "4": {
-          "name": "constant.numeric.i3"
+          "name": "constant.numeric.sway"
         },
         "5": {
-          "name": "constant.language.i3"
+          "name": "constant.language.sway"
         },
         "6": {
-          "name": "constant.language.i3"
+          "name": "constant.language.sway"
         },
         "7": {
-          "name": "constant.numeric.i3"
+          "name": "constant.numeric.sway"
         },
         "8": {
-          "name": "constant.language.i3"
+          "name": "constant.language.sway"
         }
       }
     },
@@ -1349,22 +1349,22 @@
       "match": "(resize)\\s*(set)\\s*(\\d+)\\s*(px)?\\s*(\\d+)\\s*(px)?",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "2": {
-          "name": "constant.language.i3"
+          "name": "constant.language.sway"
         },
         "3": {
-          "name": "constant.numeric.i3"
+          "name": "constant.numeric.sway"
         },
         "4": {
-          "name": "constant.language.i3"
+          "name": "constant.language.sway"
         },
         "5": {
-          "name": "constant.numeric.i3"
+          "name": "constant.numeric.sway"
         },
         "6": {
-          "name": "constant.language.i3"
+          "name": "constant.language.sway"
         }
       }
     },
@@ -1373,10 +1373,10 @@
       "match": "(mode)\\s*(\\\"default\\\")",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "2": {
-          "name": "string.i3"
+          "name": "string.sway"
         }
       }
     },
@@ -1385,7 +1385,7 @@
       "match": "(focus)",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         }
       }
     },
@@ -1394,10 +1394,10 @@
       "match": "(unmark|mark)\\s*(.*)",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "2": {
-          "name": "constant.language.i3"
+          "name": "constant.language.sway"
         }
       }
     },
@@ -1406,13 +1406,13 @@
       "match": "(default_border|border)\\s*(none|toggle|(\\d+)\\s*pixel|(?:pixel|normal)\\s*(\\d+))",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "2": {
-          "name": "constant.language.i3"
+          "name": "constant.language.sway"
         },
         "3": {
-          "name": "constant.numeric.i3"
+          "name": "constant.numeric.sway"
         }
       }
     },
@@ -1421,13 +1421,13 @@
       "match": "(shmlog)\\s*(?:(on|off|toggle)|(\\d*))",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "2": {
-          "name": "constant.language.i3"
+          "name": "constant.language.sway"
         },
         "3": {
-          "name": "constant.numeric.i3"
+          "name": "constant.numeric.sway"
         }
       }
     },
@@ -1436,13 +1436,13 @@
       "match": "(debuglog)\\s*(on|off|toggle)",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "2": {
-          "name": "constant.language.i3"
+          "name": "constant.language.sway"
         },
         "3": {
-          "name": "constant.numeric.i3"
+          "name": "constant.numeric.sway"
         }
       }
     },
@@ -1451,7 +1451,7 @@
       "match": "(reload)",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         }
       }
     },
@@ -1460,7 +1460,7 @@
       "match": "(restart)",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         }
       }
     },
@@ -1469,7 +1469,7 @@
       "match": "(exit)",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         }
       }
     },
@@ -1478,10 +1478,10 @@
       "match": "(move)\\s*(scratchpad)",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "2": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         }
       }
     },
@@ -1490,10 +1490,10 @@
       "match": "(scratchpad)\\s*(show)",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "2": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         }
       }
     },
@@ -1502,13 +1502,13 @@
       "match": "(bar hidden_state)\\s*(show|hide|toggle)\\s*(.*)?",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "2": {
-          "name": "constant.language.i3"
+          "name": "constant.language.sway"
         },
         "3": {
-          "name": "constant.language.i3"
+          "name": "constant.language.sway"
         }
       }
     },
@@ -1517,13 +1517,13 @@
       "match": "(mode)\\s*(dock|hide|invisible|toggle)\\s*(.*)?",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "2": {
-          "name": "constant.language.i3"
+          "name": "constant.language.sway"
         },
         "3": {
-          "name": "constant.language.i3"
+          "name": "constant.language.sway"
         }
       }
     },
@@ -1532,13 +1532,13 @@
       "match": "(gaps)\\s*(inner|outer)\\s*(\\d+)",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "2": {
-          "name": "constant.language.i3"
+          "name": "constant.language.sway"
         },
         "3": {
-          "name": "constant.numeric.i3"
+          "name": "constant.numeric.sway"
         }
       }
     },
@@ -1547,13 +1547,13 @@
       "match": "(gaps)\\s*(inner|outer)\\s*(current|all)?\\s*(set|plus|minus)?\\s*(\\d+)",
       "captures": {
         "1": {
-          "name": "keyword.control.i3"
+          "name": "keyword.control.sway"
         },
         "2": {
-          "name": "constant.language.i3"
+          "name": "constant.language.sway"
         },
         "3": {
-          "name": "constant.numeric.i3"
+          "name": "constant.numeric.sway"
         }
       }
     }

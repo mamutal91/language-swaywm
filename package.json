@@ -1,17 +1,17 @@
 {
-  "name": "language-i3wm",
-  "author": "Taylon Silva",
-  "version": "0.1.0",
-  "description": "Atom syntax definition for the i3wm configuration file",
-  "repository": "https://github.com/taylon/language-i3wm",
+  "name": "language-swaywm",
+  "author": "Alexandre Rangel",
+  "version": "0.1.1",
+  "description": "Atom syntax definition for the swaywm configuration file",
+  "repository": "https://github.com/mamutal91/language-swaywm",
+  "keywords": [
+    "sway",
+    "swaywm",
+    "language"
+  ],
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "keywords": [
-    "i3",
-    "i3wm",
-    "language"
-  ],
   "dependencies": {}
 }
