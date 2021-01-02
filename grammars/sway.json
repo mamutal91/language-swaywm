@@ -3,7 +3,11 @@
   "name": "swaywm",
   "fileTypes": [
     ".sway/config",
-    "sway/config"
+    "sway/config",
+    "sway/profiles.conf",
+    ".sway/profiles.conf",
+    "sway/rules.conf",
+    ".sway/rules.conf"
   ],
   "patterns": [
     {
