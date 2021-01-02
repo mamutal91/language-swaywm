@@ -1,7 +1,7 @@
 {
   "name": "language-swaywm",
   "author": "Alexandre Rangel",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Atom syntax definition for the swaywm configuration file",
   "repository": "https://github.com/mamutal91/language-swaywm",
   "keywords": [
